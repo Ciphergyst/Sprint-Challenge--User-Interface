@@ -121,6 +121,12 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+.bottom-content-about{
+	margin-left: 20px;
+}
+/* .text-container { */
+	border-bottom: 1px dashed black;
+}
 
 #b1 {
 	background-color: teal;
@@ -187,20 +193,50 @@ p {
     padding-right: 0;
 }
 
-.button {
- background-color: white
- border: 2px solid black;
- color: black;
- padding: 10px 40px;
- text-align: center;
- text-decoration: none;
- font-size: 16px;
- border-radius: 12px;
+.container-about-page {
+margin-left: 50px;
+
 }
+/* .about-section {
+	/* border-bottom: 1px dashed black; */
+} */
+
+.button {
+	background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+	color: black;
+  padding: 12px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+	margin-top: 10px;
+   }
+
+	 .top-content2 {
+	     display: flex;
+	     flex-wrap: wrap;
+	     justify-content: space-evenly;
+	     margin-bottom: 20px;
+
+	 }
+
+	 .top-content2 .text-container {
+	     width: 48%;
+	     padding: 0 1%;
+	     padding-bottom: 20px;
+	 		padding-top: 20px;
+			border-bottom: 1px dashed black;
+	 }
+
 
 footer {
-    width: 100%;
+    width: 90%;
     background: black;
+		margin-top: 30px;
 }
 
 footer nav {
@@ -210,7 +246,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-		margin-top: 20px
+
 }
 
 footer nav a {
