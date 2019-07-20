@@ -83,7 +83,7 @@ p {
   flex-flow: row;
 }
 
-.container .topcontent .text-container .button {
+.button {
   background-color: white;
   border: 2 px;
   color: white;

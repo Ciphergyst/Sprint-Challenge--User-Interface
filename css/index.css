@@ -187,6 +187,17 @@ p {
     padding-right: 0;
 }
 
+.button {
+ background-color: white
+ border: 2px solid black;
+ color: black;
+ padding: 10px 40px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 16px;
+ border-radius: 12px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -199,6 +210,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+		margin-top: 20px
 }
 
 footer nav a {
